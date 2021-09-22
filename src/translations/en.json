@@ -1,0 +1,31 @@
+{
+  "home": {
+    "filter": "filter",
+    "content": "content",
+    "header": "header",
+    "footer": "footer"
+  },
+
+  "realEstateForSale": {
+    "viewCount": "Views",
+    "shareCount": "Shared",
+    "phoneCallCount": "Calls",
+    "messageCallCount": "Messages",
+    "emailCount": "Email",
+    "land-planing": "Land planding",
+    "land-position": "Position",
+    "systemPostType": "Post type",
+    "land-convenience": "Utilities",
+    "investmentValue": "Investment value",
+    "rentableValue": "Rental value",
+    "positiveInfo": "Advantages",
+    "negativeInfo": "Disadvantages",
+    "province/city": "Province / City",
+    "district": "District",
+    "wards": "Wards",
+    "lending-partner": "Lending Partner",
+    "recent-search": "Recent Search",
+    "clear-filter": "Clear data",
+    "search": "Search"
+  }
+}
