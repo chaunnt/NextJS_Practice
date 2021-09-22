@@ -1,0 +1,17 @@
+{
+  "name": "Hodace",
+  "short_name": "Hodace",
+  "description": "Hodace",
+  "icons": [
+    {
+      "src": "/static/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "portrait",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "display": "standalone"
+}
