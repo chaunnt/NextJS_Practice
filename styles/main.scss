@@ -1,0 +1,22 @@
+@import "variables";
+
+a:hover {
+    text-decoration: none;
+}
+ 
+// ----------------- TabsControl ------------------------
+
+.tab-items {
+    justify-content: center;
+}
+
+// ----------------- Logo ------------------------
+.hodace-network-slogan {
+    font-family: "Roboto";
+    display: flex;
+    justify-content: center;
+    line-height: 14px;
+    p{
+        font-size: 14px;
+    }
+}

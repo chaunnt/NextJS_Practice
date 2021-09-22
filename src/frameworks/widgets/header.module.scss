@@ -1,0 +1,27 @@
+@import "@/styles/variables";
+
+.header {
+    background-color: $background-color !important;
+}
+
+.nav-bar {
+    a {
+        color: $text-color;
+        padding: 20px 0px;
+        margin-right: 40px;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    min-height: 67px;
+}
+.language {
+    a {
+        color: $text-color;
+    }
+}
+
+.active-nav {
+    border-bottom: 3px solid $main-color;
+    color: $main-color !important;
+}
