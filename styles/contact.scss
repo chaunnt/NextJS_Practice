@@ -1,0 +1,29 @@
+.contact {
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+    >a {
+        box-shadow: #ca2424;
+        margin: 8px;
+        display: block;
+        border-radius: 100%;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.1);
+        // animation: zoom 0.5s infinite;
+        >img {
+            object-fit: cover;
+            width: 48px;
+            height: 48px;
+            border-radius: 100%;
+        }
+        // @keyframes zoom {
+        //     0% {
+        //         transform: scale(1);
+        //     }
+        //     100% {
+        //         transform: scale(1.2);
+        //     }
+        // }
+    }
+}

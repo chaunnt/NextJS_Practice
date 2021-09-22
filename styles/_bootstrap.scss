@@ -1,0 +1,26 @@
+// Required
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import 'variables';
+
+$theme-colors: map-merge(
+    (
+      'mine-shaft': $color-mine-shaft,
+      'gray': $color-gray,
+      'denim': $color-denim,
+      'alto': $color-alto,
+      'gray-0': $color-gray-0,
+      'dove-gray': $color-dove-gray,
+      'white': $color-white,
+      'black': $color-black,
+      'gallery': $color-gallery,
+      'alto-0': $color-alto-0
+    ),
+    $theme-colors
+);
+
+$grid-gutter-width: 40px;
+
+// Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap';

@@ -1,0 +1,323 @@
+.detailView {
+    margin-top: 20px;
+    // /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+    // html,
+    // body,
+    // div,
+    // span,
+    // applet,
+    // object,
+    // iframe,
+    // h1,
+    // h2,
+    // h3,
+    // h4,
+    // h5,
+    // h6,
+    // p,
+    // blockquote,
+    // pre,
+    // a,
+    // abbr,
+    // acronym,
+    // address,
+    // big,
+    // cite,
+    // code,
+    // del,
+    // dfn,
+    // em,
+    // img,
+    // ins,
+    // kbd,
+    // q,
+    // s,
+    // samp,
+    // small,
+    // strike,
+    // strong,
+    // sub,
+    // sup,
+    // tt,
+    // var,
+    // b,
+    // u,
+    // i,
+    // center,
+    // dl,
+    // dt,
+    // dd,
+    // ol,
+    // ul,
+    // li,
+    // fieldset,
+    // form,
+    // label,
+    // legend,
+    // table,
+    // caption,
+    // tbody,
+    // tfoot,
+    // thead,
+    // tr,
+    // th,
+    // td,
+    // article,
+    // aside,
+    // canvas,
+    // details,
+    // embed,
+    // figure,
+    // figcaption,
+    // footer,
+    // header,
+    // hgroup,
+    // menu,
+    // nav,
+    // output,
+    // ruby,
+    // section,
+    // summary,
+    // time,
+    // mark,
+    // audio,
+    // video {
+    //     border: 0;
+    //     font-size: 100%;
+    //     font: inherit;
+    //     vertical-align: baseline;
+    //     margin: 0;
+    //     padding: 0;
+    // }
+    // article,
+    // aside,
+    // details,
+    // figcaption,
+    // figure,
+    // footer,
+    // header,
+    // hgroup,
+    // menu,
+    // nav,
+    // section {
+    //     display: block;
+    // }
+    // body {
+    //     line-height: 1;
+    // }
+    // ol,
+    // ul {
+    //     list-style: none;
+    // }
+    // blockquote,
+    // q {
+    //     quotes: none;
+    // }
+    // blockquote:before,
+    // blockquote:after,
+    // q:before,
+    // q:after {
+    //     content: none;
+    // }
+    // table {
+    //     border-collapse: collapse;
+    //     border-spacing: 0;
+    // }
+    // body {
+    //     background: #e5e5e5;
+    //     margin: 60px;
+    // }
+    button {
+        outline: none !important;
+    }
+    .bacon-blog-post {
+        position: relative;
+        width: 100%;
+        background: #fff;
+        font-weight: 400;
+        line-height: 1.45;
+    }
+    .bacon-blog-post-inner {
+        padding: 42px;
+    }
+    .bacon-blog-post .wp-post-image {
+        width: 100%;
+        height: auto;
+    }
+    .bacon-blog-post h1,
+    .bacon-blog-post h2,
+    .bacon-blog-post h3,
+    .bacon-blog-post h4 {
+        margin: 1.414em 0 0.5em;
+        font-weight: 700;
+        line-height: 1.2;
+        font-family: 'Roboto', sans-serif;
+    }
+    .bacon-blog-post h1 a,
+    .bacon-blog-post h2 a,
+    .bacon-blog-post h3 a,
+    .bacon-blog-post h4 a {
+        display: inline-block;
+        color: #000;
+        text-decoration: none;
+    }
+    .bacon-blog-post h1 {
+        margin-top: 0;
+        font-size: 3.157em;
+    }
+    .bacon-blog-post h2 {
+        margin-top: 0;
+        font-size: 2.369em;
+    }
+    .bacon-blog-post h3 {
+        font-size: 1.777em;
+    }
+    .bacon-blog-post h4 {
+        font-size: 1.333em;
+    }
+    .bacon-blog-post small,
+    .bacon-blog-post .font_small {
+        font-size: 0.75em;
+    }
+    .bacon-blog-post p,
+    .bacon-blog-post p a {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        // line-height: 28px;
+    }
+    .bacon-blog-post p {
+        // margin-bottom: 1.3em;
+    }
+    .bacon-blog-post p:last-child {
+        margin-bottom: 0;
+    }
+    .bacon-blog-post p a {
+        color: #b21a13;
+    }
+    .bacon-blog-post blockquote {
+        margin: 1.3em;
+        padding-left: 1.3em;
+        border-left: rgb(224, 40, 43) solid 0.25em;
+        font-style: italic;
+    }
+    .bacon-shadow:after {
+        position: absolute;
+        content: "";
+        left: 20px;
+        right: 20px;
+        bottom: 0px;
+        z-index: -1;
+        box-shadow: 0 0 30px 4px rgba(0, 0, 0, 0.6);
+    }
+    .back-content {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        // align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .detailView .bacon-blog-post-inner {
+        padding: 10px;
+    }
+    .back-content {
+        flex-direction: column;
+        div.backBtn {
+            margin-bottom: 40px !important;
+            margin-left: unset !important;
+        }
+    }
+    .detailView .bacon-blog-post h1 a,
+    .detailView .bacon-blog-post h2 a,
+    .detailView .bacon-blog-post h3 a,
+    .detailView .bacon-blog-post h4 a {
+        font-size: 12px;
+    }
+    .detailView .bacon-blog-post p,
+    .detailView .bacon-blog-post p a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .details {
+        width: 100% !important;
+    }
+}
+
+.details-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.details {
+    width: calc((100% - 80px)/2);
+    margin: 24px 20px 0px 20px;
+    font-size: 14px !important;
+    &__title {
+        // margin: 24px 0 16px 0;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        // font-size: 12px;
+        color: #8A8A8A;
+        align-items: center;
+        &--first {
+            font-weight: 700;
+            margin-bottom: 0;
+            color: #000;
+        }
+        &--second {
+            line-height: 1.3;
+            color: #222222;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+        }
+    }
+    &__list {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #DDDDDD;
+        margin-top: 16px;
+    }
+    .item {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 8px;
+        &--flex {
+            align-items: flex-start !important;
+        }
+        >p {
+            margin-bottom: 0 !important;
+        }
+        &__name {
+            vertical-align: middle;
+            display: inline;
+            >span {
+                margin-left: 10px;
+            }
+        }
+        &__value {
+            // text-transform: uppercase;
+            // max-width: 50%;
+            font-weight: 700;
+            &--green {
+                color: #A7BF2E;
+            }
+            &--gray {
+                color: #8A8A8A;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.icon-large {
+    width: 20px;
+    height: 16px;
+}
