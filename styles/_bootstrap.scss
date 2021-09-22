@@ -1,0 +1,61 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+$container-max-widths: (
+  sm: 100%,
+  md: 100%,
+  lg: 100%,
+  xl: 100%,
+  xxl: 1360px
+);
+
+$grid-gutter-width: 40px;
+$container-padding-x: $grid-gutter-width * .5;
+
+$font-family-sans-serif: Roboto, system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$primary: #1086C9;
+$color-congress-blue: #063590;
+$color-mine-shaft: #222;
+$color-gray: #8C8C8C;
+$color-dove-gray: #696969;
+$color-silver-sand: #BABCBE;
+$color-tundora: #4B4B4B;
+$color-silver: rgba(196, 196, 196, 0.3);
+$color-wind-sand: #F6F6F6;
+$color-black-0: rgba(0, 0, 0, 0.1);
+$color-alto: #D8D8D8;
+$color-alabaster: #F8F8F8;
+$color-gray-0: #8A8A8A;
+$color-alto-0: #DADADA;
+$color-mystic: #DEE5E9;
+$color-gallery: #ECECEC;
+
+$theme-colors: map-merge(
+    $theme-colors,
+    (
+      'primary': $primary,
+      'congress-blue': $color-congress-blue,
+      'mine-shaft': $color-mine-shaft,
+      'gray': $color-gray,
+      'black': $black,
+      'white': $white,
+      'dove-gray': $color-dove-gray,
+      'silver-sand': $color-silver-sand,
+      'tundora': $color-tundora,
+      'silver': $color-silver,
+      'wind-sand': $color-wind-sand,
+      'black-0': $color-black-0,
+      'alto': $color-alto,
+      'alabaster': $color-alabaster,
+      'gray-0': $color-gray-0,
+      'alto-0': $color-alto-0,
+      'mystic': $color-mystic,
+      'gallery': $color-gallery
+    )
+);
+
+$body-color: $color-mine-shaft;
+
+@import '~bootstrap/scss/bootstrap';

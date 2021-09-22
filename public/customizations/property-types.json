@@ -1,0 +1,32 @@
+{
+  "all": {
+    "translationKey": "propertyTypes.all"
+  },
+  "villa": {
+    "translationKey": "propertyTypes.villa"
+  },
+  "house": {
+    "translationKey": "propertyTypes.house"
+  },
+  "ground": {
+    "translationKey": "propertyTypes.ground"
+  },
+  "townHouse": {
+    "translationKey": "propertyTypes.townHouse"
+  },
+  "apartment": {
+    "translationKey": "propertyTypes.apartment"
+  },
+  "projectLand": {
+    "translationKey": "propertyTypes.projectLand"
+  },
+  "factory": {
+    "translationKey": "propertyTypes.factory"
+  },
+  "industrialParkLand": {
+    "translationKey": "propertyTypes.industrialParkLand"
+  },
+  "other": {
+    "translationKey": "propertyTypes.other"
+  }
+}

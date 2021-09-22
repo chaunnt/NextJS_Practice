@@ -1,0 +1,71 @@
+{
+  "header": {
+    "title": "Hodace"
+  },
+  "footer": {},
+  "menu": {
+    "home": "Bất động sản",
+    "contact": "Liên hệ"
+  },
+  "tenures": {
+    "all": "Tất cả",
+    "sale": "Rao bán",
+    "rent": "Cho thuê"
+  },
+  "search": {
+    "mainSearchText": "Bạn tìm gì"
+  },
+  "advancedFilter": {
+    "btnText": "Bộ lọc nâng cao"
+  },
+  "propertyTypes": {
+    "all": "Tất cả",
+    "villa": "Biệt thự",
+    "house": "Nhà hẻm",
+    "ground": "Đất nền",
+    "townHouse": "Nhà phố",
+    "apartment": "Chung cư",
+    "projectLand": "Dự án",
+    "factory": "Nhà xưởng",
+    "industrialParkLand": "Đất khu công nghiệp",
+    "other": "Khác"
+  },
+  "error": {
+    "apiServerError": "Lỗi kết nối với server"
+  },
+  "pagination": {
+    "page": "trang",
+    "display": "hiển thị",
+    "on": "trên",
+    "results": "kết quả",
+    "allCount": "tổng số",
+    "prev": "trước",
+    "next": "tiếp"
+  },
+  "home": {
+    "sorting": {
+      "found": "Tìm được",
+      "results": "kết quả phù hợp",
+      "orderBy": "Sắp xếp theo"
+    }
+  },
+  "post": {
+    "counters": {
+      "view": "lượt xem",
+      "share": "lượt chia sẻ",
+      "click": "click",
+      "info": "thông tin",
+      "points": "điểm đầu tư"
+    },
+    "particularsTitles": {
+      "plan": "Quy hoạch",
+      "location": "Vị trí, tọa độ",
+      "type": "Loại bài đăng",
+      "utility": "Tiện ích xung quanh",
+      "investmentValue": "Giá trị đầu tư",
+      "loanValue": "Giá trị cho vay",
+      "advantage": "Ưu điểm",
+      "disadvantage": "Nhược điểm"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "all": {
+    "icon": "/icons/search-all.svg",
+    "activeIcon": "/icons/search-all-blue.svg",
+    "translationKey": "tenures.all"
+  },
+  "sale": {
+    "icon": "/icons/search-sale.svg",
+    "activeIcon": "/icons/search-all-blue.svg",
+    "translationKey": "tenures.sale"
+  },
+  "rent": {
+    "icon": "/icons/search-rent.svg",
+    "activeIcon": "/icons/search-all-blue.svg",
+    "translationKey": "tenures.rent"
+  }
+}

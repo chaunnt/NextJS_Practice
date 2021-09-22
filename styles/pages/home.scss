@@ -1,0 +1,109 @@
+body.page-home {
+  .container__inner {
+    max-width: 983px;
+  }
+
+  .section-sorting {
+    .left {
+      font-size: 20px;
+      line-height: 23px;
+      color: get-color('black');
+    }
+
+    .right {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+      color: get-color('dove-gray');
+    }
+  }
+
+  .section-pagination-top {
+    line-height: 19px;
+    color: get-color('gray');
+    margin-top: 16px;
+
+    .nav-arrow {
+      &.nav-arrow-prev {
+        margin-right: 12px;
+      }
+
+      &.nav-arrow-next {
+        margin-left: 15px;
+      }
+    }
+
+    .separator {
+      margin: {
+        left: 34px;
+        right: 15px;
+      };
+      border: 1px solid get-color('silver-sand');
+      height: 30px;
+    }
+
+    .display {
+      span {
+        @extend .d-block;
+
+        &:first-letter {
+          @extend .text-capitalize;
+        }
+      }
+    }
+  }
+
+  .section-posts {
+
+  }
+
+  .section-pagination-bottom {
+    padding-bottom: 90px;
+    color: get-color('dove-gray');
+
+    .container__inner {
+      border-top: 1px solid get-color('gallery');
+      padding-top: 10px;
+    }
+
+    .left {
+      span {
+        @extend .d-inline-block;
+      }
+    }
+
+    .right {
+      @extend .d-flex, .align-items-center;
+    }
+
+    .active-page {
+      border: 1px solid get-color('silver-sand');
+      border-radius: 3px;
+      padding: 6px 28px;
+      font-weight: 500;
+      line-height: 19px;
+      margin: 0 10px;
+    }
+
+    .btn-page {
+      @extend .text-capitalize;
+      color: get-color('congress-blue');
+      text-decoration: none;
+
+      &.btn-page-prev {
+        margin-right: 32px;
+      }
+
+      &.btn-page-next {
+        margin-left: 32px;
+      }
+    }
+
+    .list-group {
+      .list-group-item {
+        @extend .border-0;
+        padding: 0 12px;
+      }
+    }
+  }
+}

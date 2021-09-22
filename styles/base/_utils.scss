@@ -1,0 +1,5 @@
+@import '~bootstrap/scss/variables';
+
+@function get-color($name) {
+  @return var(--#{$variable-prefix}#{$name});
+}

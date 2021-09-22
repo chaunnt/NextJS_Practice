@@ -1,0 +1,120 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+@import '@/styles/base/utils';
+
+.posts {
+  background: get-color('mystic');
+  padding-top: 8px;
+
+  @include media-breakpoint-up(md) {
+    background: transparent;
+    padding-top: 32px;
+  }
+}
+
+.post-item {
+  border: 1px solid get-color('alto-0');
+  margin-bottom: 8px;
+  background: get-color('white');
+  padding: 20px;
+
+  @include media-breakpoint-up(md) {
+    border: none;
+    margin-bottom: 44px;
+    padding: 0;
+  }
+}
+
+.entry-title {
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 5px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: get-color('congress-blue');
+  }
+}
+
+.counters {
+  color: get-color('gray');
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+}
+
+.counter-item {
+  margin-right: 10px;
+  vertical-align: middle;
+
+  @include media-breakpoint-up(md) {
+    margin-right: 20px;
+  }
+
+  .icon {
+    margin-right: 5px;
+
+    @include media-breakpoint-up(md) {
+      margin-right: 8px;
+    }
+  }
+}
+
+.entry-content {
+  margin-top: 5px;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 10px;
+  }
+}
+
+.entry-date {
+  font-size: 14px;
+  line-height: 14px;
+  color: get-color('gray-0');
+
+  @include media-breakpoint-up(md) {
+    font-size: 16px;
+    line-height: 19px;
+    color: get-color('dove-gray');
+  }
+}
+
+.entry-summary {
+  font-size: 13px;
+  line-height: 22px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 16px;
+    line-height: 28px;
+    color: get-color('black');
+  }
+}
+
+.entry-redirect {
+  margin-top: 10px;
+}
+
+.redirect-item {
+  font-size: 13px;
+  line-height: 15px;
+  color: get-color('dove-gray');
+  border: 1px solid get-color('silver-sand');
+  border-radius: 30px;
+  padding: 5px 12px;
+  text-decoration: none;
+  margin-right: 6px;
+}

@@ -1,0 +1,27 @@
+{
+  "header": {
+    "title": "Hodace"
+  },
+  "footer": {},
+  "menu": {
+    "home": "Bất động sản",
+    "contact": "Liên hệ"
+  },
+  "tenures": {
+    "all": "Tất cả",
+    "sale": "Rao bán",
+    "rent": "Cho thuê"
+  },
+  "propertyTypes": {
+    "all": "Tất cả",
+    "villa": "Biệt thự",
+    "house": "Nhà hẻm",
+    "ground": "Đất nền",
+    "townHouse": "Nhà phố",
+    "apartment": "Chung cư",
+    "projectLand": "Dự án",
+    "factory": "Nhà xưởng",
+    "industrialParkLand": "Đất khu công nghiệp",
+    "other": "Khác"
+  }
+}
