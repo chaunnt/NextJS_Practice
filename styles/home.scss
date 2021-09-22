@@ -1,0 +1,150 @@
+.home {
+  margin-top: 20px;
+  &__input {
+    margin-top: 20px;
+  }
+  .title_new {
+    font-size: 20px;
+    line-height: 1.3;
+    color: #1a0dab;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .sub_new {
+    color: #202124;
+    font-style: normal;
+  }
+  .sub_new:hover {
+    text-decoration: unset;
+  }
+  .des_new {
+    color: #4d5156;
+    font-size: 16px;
+  }
+  .link_new {
+    a {
+      color: #1a0dab;
+    }
+  }
+  .link_info{
+    div{
+      color: #b9b5b5;
+    }
+  }
+  .content_new {
+    margin-bottom: 20px;
+  }
+}
+
+#result-stats {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 8px;
+  color: #70757a;
+  font-size: 18px;
+}
+div.backBtn {
+  // margin-bottom: 40px;
+  margin-top: 20px;
+  transition: all 0.4s ease;
+  position: relative;
+  cursor: pointer;
+  min-width: 100px;
+  margin-left: 18px !important;
+}
+
+span.line {
+  bottom: auto;
+  right: auto;
+  top: auto;
+  left: auto;
+  background-color: #333;
+  border-radius: 10px;
+  left: 0px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  transition: width 0.2s ease 0.1s, left 0.2s ease, transform 0.2s ease 0.3s,
+    background-color 0.2s ease;
+}
+
+span.tLine {
+  top: 0px;
+}
+
+span.mLine {
+  top: 13px;
+  opacity: 0;
+}
+
+span.mLine,
+span.bLine,
+span.line {
+  background-color: black !important;
+  width: 94px !important;
+}
+
+span.bLine {
+  top: 26px;
+}
+
+.label {
+  position: absolute;
+  left: 22px;
+  top: 4px;
+
+  text-align: center;
+  transition: all 0.4s ease;
+  font-size: 1em;
+}
+
+div.backBtn:hover {
+  span.mLine,
+  span.bLine,
+  span.line {
+    width: 22px !important;
+    height: 2px !important;
+  }
+}
+
+div.backBtn:hover span.label {
+  left: 25px;
+}
+
+div.backBtn:hover span.line {
+  left: -10px;
+  height: 5px;
+  background-color: black !important;
+}
+
+div.backBtn:hover span.tLine {
+  width: 25px;
+  transform: rotate(-45deg);
+  left: -15px;
+  top: 6px;
+}
+
+div.backBtn:hover span.mLine {
+  opacity: 1;
+  width: 30px;
+}
+
+div.backBtn:hover span.bLine {
+  width: 25px;
+  transform: rotate(45deg);
+  left: -15px;
+  top: 20px;
+}
+
+.loading{
+  position: absolute;
+    left: 50%;
+    top: 50%;
+
+}
