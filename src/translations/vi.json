@@ -1,0 +1,25 @@
+{
+  "home": {
+    "title": "hodace",
+    "filter": "Bộ lọc nâng cao",
+    "content": "Nội dung",
+    "header": "header",
+    "footer": "footer"
+  },
+
+  "realEstateForSale":{
+    "viewCount" :"Lượt xem",
+    "shareCount" :"Lượt chia sẻ",
+    "clickCount" :"Số lần xem chi tiết",
+    "infomation" :"Thông tin chung",
+    "investment_point" :"Điểm đầu tư",
+    "land-planing":"Quy hoạch",
+    "land-position":"Vị trí, tọa độ",
+    "systemPostType":"Loại bài đăng",
+    "land-convenience":"Tiện ích xung quanh",
+    "investmentValue":"Giá trị đầu tư",
+    "rentableValue":"Gía trị cho vay",
+    "positiveInfo":"Ưu điểm",
+    "negativeInfo":"Nhược điểm"
+  }
+}

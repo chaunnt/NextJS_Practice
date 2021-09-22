@@ -1,0 +1,104 @@
+@import '../variables';
+
+.home_container{
+  padding-top: 1rem;
+  width: 68%;
+  margin: auto;
+  .search_result{
+    a{
+      text-decoration: none;
+      h4{
+        font-weight: 800;
+        font-weight: normal;
+        color: $main;
+        margin-bottom: 0px;
+        margin-top: 25px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; 
+        -webkit-box-orient: vertical;
+      }
+    } 
+    .search_result_item{
+      .post_summary{
+        ul{
+          margin: .3rem 0;
+          margin-bottom: 0;
+          display: flex;
+        }
+        li{
+          display: flex;
+          align-items: center;
+          list-style: none;
+          margin-right: 1rem;
+          color: #696969;
+          font-size: .82rem;
+          span{
+            margin-left: 0.3rem;
+          }
+        }
+      }
+      .detail_info{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3; 
+        -webkit-box-orient: vertical;
+      }
+      .category{
+        ul{
+          display: flex;
+          margin:.9rem 0 .2rem 0;
+        }
+        li{
+          display: flex;
+          align-items: center;
+          border-radius: .9rem;
+          list-style: none;
+          line-height: 1.3rem;
+          margin-right: 1rem;
+          border: 1px solid #696969;
+          color: #696969;
+          font-size: .82rem;
+          padding:0 .6rem;
+          display: flex;
+          .icon_summary{
+              display: none;
+          }
+        }
+      }
+    }
+  }
+}
+  
+@media screen and (min-width: 0px) and (max-width:950px){
+  .home_container{
+    box-sizing: border-box;
+    width: 100%;
+    padding:0 0.5rem;
+  }
+  .post_summary{
+      ul{
+          li{
+              span{
+                  display: none;
+              }
+          }
+      }
+  }
+}
+  
+@media screen and (min-width: 0px) and (max-width:1380px){
+  .category{
+    li{
+      padding: 0 !important;
+      span{
+        display: none;
+      }
+      .icon_summary{
+          display:block !important;
+      }
+    }
+  }
+}
