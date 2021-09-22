@@ -1,0 +1,54 @@
+.contact {
+  margin-top: 100px;
+    .content {
+        .logo {
+                width: 100%;
+        }
+        .text-introduce {
+            color:#000000;
+            font-size: 16px;
+            font-weight: 500;
+            text-align: center;
+            letter-spacing: 0.6px;
+
+        }
+        .text-title {
+            color:#000000;
+        }
+        .text-active {
+            display: inline-block;
+            border-bottom: 2px solid #1890ff;
+            padding-bottom: 2px;
+            // color:#1890ff
+          }
+          .text-disabled {
+            color:#8C8C8C;
+            display: inline-block;
+            border-bottom: 2px solid white;
+            padding-bottom: 2px;
+          }
+          .divider {
+              height: 20px;
+              background-color:#DADADA ;
+              margin: 0 40px;
+          }
+          .content-tab{
+              margin-top: 30px;
+              .icon-search {
+                 font-size: 20px;
+                 margin: 0 15px;
+              }
+              .search-text{
+                  border-radius: 30px;
+                  color: #1086C9;
+                  background-color: #F6F6F6;
+                  height: 56px;
+                //   width: 700px;
+
+              }
+              .ant-input-affix-wrapper > input.ant-input {
+                background-color: #F6F6F6;
+            }
+          }
+    }
+}
