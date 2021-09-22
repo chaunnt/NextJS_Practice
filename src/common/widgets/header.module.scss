@@ -1,0 +1,21 @@
+@import "@/styles/variables";
+.navBar {
+    a {
+        color: #8c8c8c;
+        padding: 20px 0px;
+        margin-right: 40px;
+        &:hover {
+            color: #1086c9;
+        }
+    }
+}
+.lang {
+    a {
+        color: #000000;
+    }
+}
+
+.active_nav {
+    border-bottom: 3px solid #1086c9;
+    color: #1086c9 !important;
+}

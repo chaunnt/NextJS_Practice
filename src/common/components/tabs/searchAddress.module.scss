@@ -1,0 +1,14 @@
+.dropdownList__location {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+    padding-left: -7px;
+    /* width: 600px; */
+    margin-left: 30%;
+    max-width: 40%;
+    button {
+        background: none !important;
+        color: #8c8c8c;
+        border: 1px solid #8c8c8c69;
+    }
+}
